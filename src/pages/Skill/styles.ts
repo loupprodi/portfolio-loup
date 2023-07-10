@@ -1,6 +1,6 @@
 import { styled } from "styled-components";
 
-export const ContactConainer = styled.main`
+export const SkillContainer = styled.main`
   flex: 1;
   display: flex;
   flex-direction: column;

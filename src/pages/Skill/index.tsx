@@ -1,15 +1,15 @@
-import { ContactConainer } from "./styles";
+import { SkillContainer } from "./styles";
 
-export const Contact = () => {
+export const Skill = () => {
   return (
-    <ContactConainer>
-      <h1>Contato</h1>
+    <SkillContainer>
+      <h1>Habilidades</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique animi
         architecto, consectetur nobis eum earum vel quasi sunt repudiandae, qui
         quae, consequatur non modi iste delectus assumenda laudantium quod
         accusamus.
       </p>
-    </ContactConainer>
+    </SkillContainer>
   );
 };

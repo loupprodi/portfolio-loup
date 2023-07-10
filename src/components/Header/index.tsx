@@ -9,13 +9,13 @@ export const Header = () => {
         <Guitar size={32} />
         <nav>
           <NavLink to="/" title="home">
-            Home
+            Inicio
           </NavLink>
           <NavLink to="/about" title="about">
             Sobre
           </NavLink>
-          <NavLink to="/contact" title="contact">
-            Contato
+          <NavLink to="/skill" title="skill">
+            Habilidades
           </NavLink>
         </nav>
       </HeaderContent>

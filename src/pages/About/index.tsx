@@ -1,9 +1,9 @@
 import { NavLink } from "react-router-dom";
-import { AboutConainer } from "./styles";
+import { AboutContainer } from "./styles";
 
 export const About = () => {
   return (
-    <AboutConainer>
+    <AboutContainer>
       <h1>About page</h1>
       <p>
         Olá eu me chamo Luiz Felipe Vicente Prosdoskimi, nasci dia 30 de outubro
@@ -21,6 +21,6 @@ export const About = () => {
         muitas vezes tem uma reviravolta inesperada no fim. Bom isso foi um
         breve resumo sobre mim, obrigado por ter lido até aqui =).
       </p>
-    </AboutConainer>
+    </AboutContainer>
   );
 };
