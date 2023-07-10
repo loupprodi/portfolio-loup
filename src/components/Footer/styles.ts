@@ -7,24 +7,28 @@ export const FooterContainer = styled.footer`
 
 export const FooterContent = styled.div`
   width: 100%;
-  max-width: 1120px;
+  max-width: 1200px;
   height: 35%;
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0 1rem;
 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+
+  h2 {
+    margin-bottom: 0.8rem;
+  }
 `;
 
 export const SocialMediaList = styled.ul`
   display: flex;
   list-style: none;
   gap: 1.2rem;
-  margin: 0.5rem auto;
+  margin: 1rem auto;
 
   span {
     margin: 0.2rem;
