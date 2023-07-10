@@ -2,7 +2,11 @@ import { HomeContainer } from "./styles";
 
 export const Home = () => {
   return (
-    <HomeContainer>
+    <HomeContainer
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
       <h1>Inicio</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sunt porro

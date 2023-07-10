@@ -7,7 +7,7 @@ export const HeaderContainer = styled.header`
 
 export const HeaderContent = styled.div`
   width: 100%;
-  max-width: 1120px;
+  max-width: 1220px;
   margin: 0 auto;
   padding: 0 1.5rem;
 
@@ -17,11 +17,10 @@ export const HeaderContent = styled.div`
 
   nav {
     display: flex;
-    gap: 0.8rem;
+    gap: 1rem;
   }
 
   nav a {
-    width: 3rem;
     height: 3rem;
 
     display: flex;

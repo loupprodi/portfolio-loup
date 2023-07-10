@@ -2,7 +2,11 @@ import { SkillContainer } from "./styles";
 
 export const Skill = () => {
   return (
-    <SkillContainer>
+    <SkillContainer
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+    >
       <h1>Habilidades</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique animi

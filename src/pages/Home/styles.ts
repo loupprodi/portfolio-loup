@@ -1,6 +1,13 @@
+import { motion } from "framer-motion";
 import { styled } from "styled-components";
 
-export const HomeContainer = styled.main`
+interface HomeContainerMotionProps {
+  initial: object;
+  animate: object;
+  exit: object;
+}
+
+export const HomeContainer = styled(motion.main)<HomeContainerMotionProps>`
   flex: 1;
   display: flex;
   flex-direction: column;

@@ -1,6 +1,13 @@
+import { motion } from "framer-motion";
 import { styled } from "styled-components";
 
-export const SkillContainer = styled.main`
+interface SkillContainerMotionProps {
+  initial: object;
+  animate: object;
+  exit: object;
+}
+
+export const SkillContainer = styled(motion.main)<SkillContainerMotionProps>`
   flex: 1;
   display: flex;
   flex-direction: column;
