@@ -13,7 +13,8 @@ export const Footer = () => {
       <FooterContent>
         <h2>Entre em Contato</h2>
         <p>
-          Gostaria de me conhecer? acesse as redas abaixo e entre em contato !!
+          Gostaria de me conhecer? acesse as redes sociais abaixo e entre em
+          contato !!
         </p>
         <SocialMediaList>
           <li>

@@ -14,7 +14,9 @@ export const Home = () => {
       <LottieContainer>
         <Lottie animationData={ProgramingAnimationJson} loop play />
       </LottieContainer>
-      <p>Luiz Prosdoskimi</p>
+      <p>
+        <strong>Luiz Prosdoskimi</strong>
+      </p>
       <p>
         desenvolvedor fullstack | React | JavaScript | TypeScript | Vue.Js |
         NodeJS | PHP | Laravel | Dart Flutter | Spring Boot Application

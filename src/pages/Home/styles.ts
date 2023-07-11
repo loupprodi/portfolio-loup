@@ -27,4 +27,9 @@ export const LottieContainer = styled.div`
   max-width: 1200px;
   width: min(500px, 95vw);
   border-radius: 0.5rem;
+  box-shadow: 5px 6px rgba(0, 0, 0, 0.75);
+  box-shadow: 4px 4px
+    ${(props) => {
+      return props.theme["indigo-800"];
+    }};
 `;
