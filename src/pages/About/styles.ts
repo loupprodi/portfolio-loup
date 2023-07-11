@@ -9,6 +9,7 @@ interface AboutContainerMotionProps {
 export const AboutContainer = styled(motion.main)<AboutContainerMotionProps>`
   flex: 1;
   display: flex;
+
   flex-direction: column;
   align-content: center;
   justify-content: space-evenly;
@@ -16,3 +17,12 @@ export const AboutContainer = styled(motion.main)<AboutContainerMotionProps>`
 
   padding: 0.2rem 1.8rem;
 `;
+
+export const AboutContent = styled.div`
+  flex: grid;
+  grid-template-columns: 1 3fr;
+`;
+
+export const ImageContent = styled.main``;
+
+export const InfoContent = styled.aside``;
