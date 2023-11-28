@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { HomeContainer, LottieContainer } from "./styles";
 import Lottie from "react-lottie-player";
 
@@ -18,7 +17,7 @@ export const Home = () => {
         <strong>Luiz Prosdoskimi</strong>
       </p>
       <p>
-        desenvolvedor fullstack | React | JavaScript | TypeScript | Vue.Js |
+        Developper fullstack | React | JavaScript | TypeScript | Vue.Js |
         NodeJS | PHP | Laravel | Dart Flutter | Spring Boot Application
       </p>
     </HomeContainer>
