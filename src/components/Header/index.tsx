@@ -1,12 +1,16 @@
 import { Guitar, InstagramLogo } from "@phosphor-icons/react";
-import { HeaderButton, HeaderContainer, HeaderContent } from "./styles";
+import { HeaderButton, HeaderContainer, HeaderContent, LogoImg } from "./styles";
 import { NavLink } from "react-router-dom";
+
+import mainLogo from "../../assets/img/logo_nome_luiz.png";
 
 export const Header = () => {
   return (
     <HeaderContainer>
       <HeaderContent>
-        <Guitar size={32} />
+        <LogoImg>
+          <img src={mainLogo} alt="logo luiz" />
+        </LogoImg>
         <nav>
           <NavLink to="/" title="home">
             Inicio

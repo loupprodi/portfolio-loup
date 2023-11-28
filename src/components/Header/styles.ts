@@ -1,5 +1,11 @@
 import { styled } from "styled-components";
 
+export const LogoImg = styled.div`
+  img {
+    height: 55px;
+  }
+`
+
 export const HeaderContainer = styled.header`
   background: ${(props) => props.theme["gray-900"]};
   padding: 0.5rem 0 2.5rem;
