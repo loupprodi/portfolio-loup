@@ -3,20 +3,20 @@ import { styled } from "styled-components";
 export const LogoImg = styled.div`
 margin-top:10px;
   img {
-    height: 55px;
+    height: 60px;
   }
 `
 
 export const HeaderContainer = styled.header`
   background: ${(props) => props.theme["gray-900"]};
-  padding: 0.5rem 0 2.5rem;
+  padding: 0.5rem 0 1.2rem;
 `;
 
 export const HeaderContent = styled.div`
   width: 100%;
   max-width: 1220px;
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0 1.1rem;
 
   display: flex;
   justify-content: space-between;
