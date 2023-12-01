@@ -14,10 +14,10 @@ export const Home = () => {
         <Lottie animationData={ProgramingAnimationJson} loop play />
       </LottieContainer>
       <p>
-        <strong>Luiz Prosdoskimi</strong>
+        <strong>Developper fullstack</strong>
       </p>
       <p>
-        Developper fullstack | React | JavaScript | TypeScript | Vue.Js |
+        React | JavaScript | TypeScript | Vue.Js |
         NodeJS | PHP | Laravel | Dart Flutter | Spring Boot Application
       </p>
     </HomeContainer>

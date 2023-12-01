@@ -1,7 +1,6 @@
 import {
   GithubLogo,
   LinkedinLogo,
-  Paperclip,
   WhatsappLogo,
 } from "@phosphor-icons/react";
 import { FooterContainer, FooterContent, SocialMediaList } from "./styles";
@@ -45,7 +44,7 @@ export const Footer = () => {
           </li>
         </SocialMediaList>
         <div>
-          <FaRegCopyright /> Copyright - loupprodi - All rights reserved
+          <FaRegCopyright /> <span>Copyright - loupprodi - All rights reserved</span>
         </div>
       </FooterContent>
     </FooterContainer>

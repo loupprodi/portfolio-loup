@@ -16,7 +16,10 @@ export const HomeContainer = styled(motion.main)<HomeContainerMotionProps>`
   align-items: center;
 
   padding: 0.2rem 1.8rem;
-
+  strong{
+    color: ${(props)=> props.theme['red']};
+    font-size: 1.8rem;
+  }
   p {
     text-align: center;
     margin: 0.8rem 0;

@@ -27,10 +27,19 @@ export const FooterContent = styled.div`
 export const SocialMediaList = styled.ul`
   display: flex;
   list-style: none;
-  gap: 1.2rem;
+  gap: 1.8rem;
   margin: 1rem auto;
-
-  span {
-    margin: 0.2rem;
+  align-items: center;
+  justify-content: center;
+ 
+  
+  li a {
+    color: ${(props) =>props.theme["gray-500"]};
+    margin: 1rem;
+    &:hover {
+    background: ${(props) => props.theme["indigo-700"]};
+    transition: background-color 0.2s;
   }
+  }
+
 `;
