@@ -46,5 +46,11 @@ export const TechContent = styled.footer`
   width: 60%;
   align-items: center;
   gap: 1.5rem;
+
+   img{
+    width: 145px;
+    margin: 3rem;
+  }
 `;
+
 

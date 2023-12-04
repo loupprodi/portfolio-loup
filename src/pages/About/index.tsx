@@ -6,15 +6,10 @@ import {
   
 } from "./styles";
 
-import html from "./images/icon-html.svg";
-import css from "./images/icon-css.svg";
-import js from "./images/icon-js.svg";
-import react from "./images/icon-react.svg";
-import node from "./images/icon-node.svg";
-import sql from "./images/icon-sql.svg";
-import { Slider } from "../../components/Slider";
-import { SwiperProps, SwiperSlide } from "swiper/react";
 
+import { Slider } from "../../components/Slider";
+import { Swiper, SwiperProps, SwiperSlide } from "swiper/react";
+import { StacksProgram } from "../../mocks/StacksProgram";
 
 
 export const About = () => {
@@ -27,7 +22,6 @@ export const About = () => {
 
     }
   }
-
 
   return (
     <>
@@ -54,7 +48,7 @@ export const About = () => {
           </p>
           <p>
             Nasci dia 30 de outubro de 1995 em São Paulo - SP, e atualmente
-            tenho 27 anos de idade. Meu primeiro contato com a tecnologia foi
+            tenho 28 anos de idade. Meu primeiro contato com a tecnologia foi
             muito cedo, vendo meu pai realizar manutenções em computadores.{" "}
             <br /> Possuo experiências com React, Flutter, React Native, Vue.Js,
             porém estou focando em react por um momento, Apesar de ser muito
@@ -70,24 +64,19 @@ export const About = () => {
 
       <TechContent>
         <Slider settings={settings}>
-        <SwiperSlide>
-        <img src={html} alt="Icone do HTML" />
-        </SwiperSlide>
-        <SwiperSlide>
-        <img src={css} alt="Icone do CSS" />
-        </SwiperSlide>
-        <SwiperSlide>
-        <img src={js} alt="Icone do JS" />
-        </SwiperSlide>
-        <SwiperSlide>
-        <img src={react} alt="Icone do React" />
-        </SwiperSlide>
-        <SwiperSlide>
-        <img src={node} alt="Icone o Node" />
-        </SwiperSlide>
-        <SwiperSlide>
-        <img src={sql} alt="Icone do Sql" />
-        </SwiperSlide>
+      {
+        StacksProgram.length  > 0 ?
+        <Swiper>
+            {StacksProgram.map((stack)=>{
+            return(
+            <SwiperSlide key={stack.id}>
+              <img src={stack.src} alt={stack.alt} />
+            </SwiperSlide>
+            )}
+          )}
+        </Swiper>
+        : <h2>No content</h2>
+      }
      </Slider>
       </TechContent>
     </>
