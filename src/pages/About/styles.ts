@@ -9,12 +9,11 @@ interface AboutContainerMotionProps {
 export const AboutContainer = styled(motion.main)<AboutContainerMotionProps>`
   flex: 1;
   display: flex;
-
   align-content: center;
   justify-content: space-evenly;
   align-items: center;
 
-  padding: 0.2rem 1.8rem;
+  padding: 1rem 1.4rem;
 `;
 
 // export const AboutContent = styled.div`
@@ -36,10 +35,16 @@ export const ImageContent = styled.main`
 
 export const InfoContent = styled.aside`
   margin: 0 1rem;
-
   p {
     margin-top: 0.8rem;
     line-height: 1.5;
     text-align: justify;
   }
 `;
+
+export const TechContent = styled.footer`
+  width: 60%;
+  align-items: center;
+  gap: 1.5rem;
+`;
+
