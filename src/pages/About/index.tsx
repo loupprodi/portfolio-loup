@@ -3,7 +3,7 @@ import {
   ImageContent,
   InfoContent,
   TechContent,
-  
+  TechImg
 } from "./styles";
 
 
@@ -70,7 +70,7 @@ export const About = () => {
             {StacksProgram.map((stack)=>{
             return(
             <SwiperSlide key={stack.id}>
-              <img src={stack.src} alt={stack.alt} />
+              <TechImg src={stack.src} alt={stack.alt} color={stack.color} />
             </SwiperSlide>
             )}
           )}

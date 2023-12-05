@@ -13,15 +13,15 @@ import laravel from "../assets/images/laravel-svg.svg"
 import docker from "../assets/images/docker-svg.svg"
 
 export const StacksProgram = [
-    {id:uuidv4(), src:html, alt:'html5', class:'html'},
-    {id:uuidv4(), src:css, alt:'css3', class:'css'}, 
-    {id:uuidv4(), src:js, alt:'js', class:'js'},
-    {id:uuidv4(), src:react, alt:'react', class:'react'},
-    {id:uuidv4(), src:node, alt:'node', class:'node'},
-    {id:uuidv4(), src:sql, alt:'sql', class:'sql'},
-    {id:uuidv4(), src:java, alt:'java', class:'java'},
-    {id:uuidv4(), src:vue, alt:'vueJs', class:'vueJs'},
-    {id:uuidv4(), src:php, alt:'php', class:'php'},
-    {id:uuidv4(), src:laravel , alt:'laravel', class:'laravel'},
-    {id:uuidv4(), src:docker, alt:'docker', class:'docker' },
+    {id:uuidv4(), src:html, alt:'html5', color:'#FF573370'},
+    {id:uuidv4(), src:css, alt:'css3', color:'#33ddff70'}, 
+    {id:uuidv4(), src:js, alt:'js', color:'#fcbf4970'},
+    {id:uuidv4(), src:react, alt:'react', color:'#00304970'},
+    {id:uuidv4(), src:node, alt:'node', color:'#508D6970'},
+    {id:uuidv4(), src:sql, alt:'sql', color:'#EE721470'},
+    {id:uuidv4(), src:java, alt:'java', color:'#B3131270'},
+    {id:uuidv4(), src:vue, alt:'vueJs', color:'#508D6970'},
+    {id:uuidv4(), src:php, alt:'php', color:'#11468F70'},
+    {id:uuidv4(), src:laravel , alt:'laravel', color:'#F1541270'},
+    {id:uuidv4(), src:docker, alt:'docker', color:'#3AB0FF70' },
 ]

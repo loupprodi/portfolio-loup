@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { styled } from "styled-components";
+import { css, styled } from "styled-components";
 
 interface AboutContainerMotionProps {
   initial: object;
@@ -47,10 +47,19 @@ export const TechContent = styled.footer`
   align-items: center;
   gap: 1.5rem;
 
-   img{
+  img {
     width: 145px;
     margin: 3rem;
   }
 `;
 
+export const TechImg = styled.img<{color: string}>`
+  width: 145px;
+  margin: 3rem;
 
+  
+    &:hover {
+        background: ${(props) => props.color};
+        transition: background-color 0.2s;
+    }
+`;
