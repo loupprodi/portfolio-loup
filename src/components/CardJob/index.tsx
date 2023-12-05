@@ -6,10 +6,9 @@ interface CardJobProps {
     position: string,
     company: string,
     description: string,
-    tech?: string | undefined
 }
 
-export const CardJob = ({year, company, description, position, tech}:CardJobProps) =>{
+export const CardJob = ({year, company, description, position}:CardJobProps) =>{
     return(
         <CardContainer>
         <h3>Empresa: {company}</h3>

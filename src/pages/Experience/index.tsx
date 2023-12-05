@@ -1,6 +1,5 @@
 import { CardJob } from "../../components/CardJob";
 import {
-    CardSkills,
   ExperienceContainer,
   ExperienceContent,
   ListExperiences,
