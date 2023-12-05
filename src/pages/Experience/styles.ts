@@ -30,3 +30,9 @@ export const ListExperiences = styled.section`
   gap: 1.5rem;
   margin-block: 1rem;
 `
+export const CardSkills = styled.span`
+  background-color: ${(props)=> props.theme['soft-white']};
+  padding: 0.5rem;
+  color: black
+`
+

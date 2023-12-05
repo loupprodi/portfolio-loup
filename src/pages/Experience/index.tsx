@@ -1,5 +1,6 @@
-import { CardXp } from "../../components/CardXp";
+import { CardJob } from "../../components/CardJob";
 import {
+    CardSkills,
   ExperienceContainer,
   ExperienceContent,
   ListExperiences,
@@ -19,12 +20,12 @@ export const Experience = () => {
           {ExperienceJob.length > 0 ? (
             ExperienceJob.map((job) => {
               return (
-                <CardXp 
+                <CardJob 
                 key={job.id} 
                 company={job.company} 
                 description={job.description} 
                 position={job.position} 
-                year={job.year} />
+                year={job.year}/>
               );
             })
           ) : (
