@@ -6,6 +6,7 @@ import { Home } from "../../pages/Home";
 import { Project } from "../../pages/Project";
 
 import { AnimatePresence } from "framer-motion";
+import { Page404 } from "../../pages/Page404";
 
 export const AnimatedRoutes = () => {
   const location = useLocation();
@@ -16,6 +17,7 @@ export const AnimatedRoutes = () => {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/project" element={<Project />} />
+          <Route path="*" element={<Page404 />} />
         </Route>
       </Routes>
     </AnimatePresence>

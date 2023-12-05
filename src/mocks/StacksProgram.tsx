@@ -2,6 +2,7 @@ import { v4 as uuidv4 } from 'uuid';
 
 import html from "../assets/images/html5-svg.svg";
 import css from "../assets/images/css3-svg.svg";
+import sass from "../assets/images/sass-svg.svg";
 import js from "../assets/images/javascript-svg.svg";
 import react from "../assets/images/react-svg.svg";
 import node from "../assets/images/node-svg.svg";
@@ -19,9 +20,10 @@ import dart from "../assets/images/dart-svg.svg";
 export const StacksProgram = [
     {id:uuidv4(), src:html, alt:'html5', color:'#FF573370'},
     {id:uuidv4(), src:css, alt:'css3', color:'#33ddff70'}, 
+    {id:uuidv4(), src:sass, alt:'sass', color:'#ED5AB380'}, 
     {id:uuidv4(), src:js, alt:'js', color:'#fcbf4970'},
     {id:uuidv4(), src:typescript, alt:'typescript', color:'#3AB0FF70' },
-    {id:uuidv4(), src:react, alt:'react', color:'#00304970'},
+    {id:uuidv4(), src:react, alt:'react', color:'#00304990'},
     {id:uuidv4(), src:dart, alt:'dart', color:'#03396c70' },
     {id:uuidv4(), src:flutter, alt:'flutter', color:'#005b9670' },
     {id:uuidv4(), src:vue, alt:'vueJs', color:'#508D6970'},

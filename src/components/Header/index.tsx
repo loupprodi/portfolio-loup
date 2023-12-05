@@ -1,5 +1,4 @@
-import { Guitar, InstagramLogo } from "@phosphor-icons/react";
-import { HeaderButton, HeaderContainer, HeaderContent, LogoImg } from "./styles";
+import { HeaderContainer, HeaderContent, LogoImg } from "./styles";
 import { NavLink } from "react-router-dom";
 
 import mainLogo from "../../assets/images/logo_nome_luiz.png";
@@ -18,8 +17,8 @@ export const Header = () => {
           <NavLink to="/about" title="about">
             Sobre
           </NavLink>
-          <NavLink to="/skill" title="skill">
-            Habilidades
+          <NavLink to="/project" title="project">
+            Projetos
           </NavLink>
         </nav>
       </HeaderContent>
