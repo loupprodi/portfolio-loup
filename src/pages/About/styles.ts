@@ -60,7 +60,8 @@ export const TechImg = styled.img<{color: string}>`
   
     &:hover {
         background: ${(props) => props.color};
-        transition: background-color 0.2s;
+        transition: background-color 0.5s;
         border-radius: 8px;
+        padding: 0.8rem;
     }
 `;

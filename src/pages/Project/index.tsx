@@ -1,6 +1,6 @@
 import { SkillContainer } from "./styles";
 
-export const Skill = () => {
+export const Project = () => {
   return (
     <SkillContainer
       initial={{ opacity: 0 }}

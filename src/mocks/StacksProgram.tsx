@@ -12,6 +12,9 @@ import php from "../assets/images/php-svg.svg";
 import laravel from "../assets/images/laravel-svg.svg";
 import docker from "../assets/images/docker-svg.svg";
 import typescript from "../assets/images/typescript-svg.svg";
+import springboot from "../assets/images/spring-svg.svg";
+import flutter from "../assets/images/flutter-svg.svg";
+import dart from "../assets/images/dart-svg.svg";
 
 export const StacksProgram = [
     {id:uuidv4(), src:html, alt:'html5', color:'#FF573370'},
@@ -19,11 +22,14 @@ export const StacksProgram = [
     {id:uuidv4(), src:js, alt:'js', color:'#fcbf4970'},
     {id:uuidv4(), src:typescript, alt:'typescript', color:'#3AB0FF70' },
     {id:uuidv4(), src:react, alt:'react', color:'#00304970'},
-    {id:uuidv4(), src:node, alt:'node', color:'#508D6970'},
-    {id:uuidv4(), src:sql, alt:'sql', color:'#EE721470'},
-    {id:uuidv4(), src:java, alt:'java', color:'#B3131270'},
+    {id:uuidv4(), src:dart, alt:'dart', color:'#03396c70' },
+    {id:uuidv4(), src:flutter, alt:'flutter', color:'#005b9670' },
     {id:uuidv4(), src:vue, alt:'vueJs', color:'#508D6970'},
+    {id:uuidv4(), src:node, alt:'node', color:'#508D6970'},
+    {id:uuidv4(), src:java, alt:'java', color:'#B3131270'},
+    {id:uuidv4(), src:springboot, alt:'springboot', color:'#01322090'},
     {id:uuidv4(), src:php, alt:'php', color:'#11468F70'},
     {id:uuidv4(), src:laravel , alt:'laravel', color:'#F1541270'},
+    {id:uuidv4(), src:sql, alt:'sql', color:'#EE721470'},
     {id:uuidv4(), src:docker, alt:'docker', color:'#3AB0FF70' },
 ]
