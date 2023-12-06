@@ -15,7 +15,7 @@ export const CardContainer = styled.section`
   justify-content: space-between;
 
   h3 {
-    color: ${(props) => props.theme["primary"]};
+    color: ${(props) => props.theme["white"]};
     font-weight:bolder;
   }
   h2 {
@@ -43,15 +43,25 @@ export const CardFooter = styled(motion.footer)<CardFooterMotionProps>`
   align-items: center;
   justify-content: space-between;
 `;
-// export const CardSkills = styled.span`
-//   background-color: ${(props)=> props.theme['soft-white']};
-//   padding: 0.5rem;
-//   color: black
-// `
 
 export const CardIcons = styled.div`
   display: flex;
   gap: 10px;
   color: ${(props)=> props.theme['red']};
   font-size: 1.5rem;
-`;
+  `;
+
+  export const CardUl = styled.ul`
+    display: flex;
+    align-items: center;
+    flex-wrap:  wrap;
+    li{
+      background-color: ${(props)=> props.theme['soft-white']};
+      padding: 0.2rem;
+      font-size:0.8rem;
+      border-radius:4px;
+      color: black;
+      margin: 0.8rem;
+      list-style:none;
+    }
+  `

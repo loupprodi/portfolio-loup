@@ -27,7 +27,9 @@ export const Experience = () => {
                 company={job.company} 
                 description={job.description} 
                 position={job.position} 
-                year={job.year}/>
+                year={job.year}
+                tech={job.tech}
+                />
               );
             })
           ) : (
