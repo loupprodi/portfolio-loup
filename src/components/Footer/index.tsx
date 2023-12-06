@@ -2,6 +2,7 @@ import {
   GithubLogo,
   LinkedinLogo,
   WhatsappLogo,
+  TwitterLogo
 } from "@phosphor-icons/react";
 import { FooterContainer, FooterContent, SocialMediaList } from "./styles";
 import { FaRegCopyright, FaGoogle } from "react-icons/fa";
@@ -18,15 +19,15 @@ export const Footer = () => {
         <SocialMediaList>
           <li>
             <span>
-              <WhatsappLogo size={32} />
-              <a href="">(15) 99178-8707</a>
+              <TwitterLogo size={32} />
+              <a href="https://twitter.com/prosdoskimi" target="blank">Prosdoskimi</a>
             </span>
           </li>
           <li>
             <span>
               <LinkedinLogo size={32} />
             </span>
-            <a href="https://www.linkedin.com/in/luiz-prosdoskimi-26205a168/">
+            <a href="https://www.linkedin.com/in/luiz-prosdoskimi-26205a168/" target="blank">
               Luiz Prosdoskimi
             </a>
           </li>
@@ -34,7 +35,7 @@ export const Footer = () => {
             <span>
               <GithubLogo size={32} />
             </span>
-            <a href="https://github.com/loupprodi">loupprodi</a>
+            <a href="https://github.com/loupprodi" target="blank">loupprodi</a>
           </li>
           <li>
             <span>

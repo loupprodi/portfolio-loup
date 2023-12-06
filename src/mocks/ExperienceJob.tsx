@@ -7,7 +7,7 @@ export const ExperienceJob = [
       position: "Front-End Developer",
       company: "EpiousionIT",
       description: "Desenvolver, realizar melhorias, manutenção e correções de bugs. Participação ativa na elaboração de projetos atuando no frontend(Vue.js, Flutter, ReactJs, React Native) e no backend(Java Springboot, NodeJs). Atuei no projeto da UNO Soluções no desenvolvimento web da plataforma ERP com o framework VueJS e na Fiducia SCM com desenvolvimento mobile usando flutter e no Backend NodeJS",
-      tech: ["Javascript", "NodeJS", "MySQL", "API Rest"],
+      tech: ["VueJs", "ReactJs", "ReactNative","Javascript", "Java", "Springboot", "Flutter", "Dart", "NodeJS", "MySQL", "API Rest"],
     },
     {
       id: uuidv4(),
@@ -15,7 +15,7 @@ export const ExperienceJob = [
       position: "Estágiario",
       company: "Starta ideia",
       description: "Executava tarefas como desenvolvedor estagiário fullstack na manutenção de código e bugs, e participação ativa na elaboração de projetos atuando na parte de front (React e React Native) e backend (Laravel, NodeJs)",
-      tech: ["Javascript", "NodeJS", "MySQL", "API Rest", "React", "React Native", "Laravel"],
+      tech: ["React", "React Native", "Javascript", "NodeJS", "MySQL", "API Rest", "Laravel"],
     },
     {
       id: uuidv4(),

@@ -4,10 +4,10 @@ export const ProjectsProgram =[
     {
         id: uuidv4(),
         img: 'work1',
-        name: "project 1",
+        name: "Project Ignite Shop",
         category: "web",
-        link: "https://github.com/leonardodillan/projeto-individual-sptech",
-        techs: ["Javascript", "NodeJS", "MySQL", "API Rest"],
-        desc: "Aplicação WEB realizada para trabalho de conclusão de semestre da faculdade. Conta com um quiz em JavaScript puro"
+        link: "https://github.com/loupprodi/project-ignite04-shop",
+        techs: ["Javascript", "Typescript", "React", "API Rest"],
+        desc: "Este projeto foi desenvolvido com finalidade didaticas criando um pequeno shopping em NextJs consumindo a plataforma stripe de pagamentos, foi abordado a respeito da arquitetura cliente-side usando conceitos de ssg(Static Site Generation) e ssr(Server Side Rendering) dentro do framework"
       },
 ]

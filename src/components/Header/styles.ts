@@ -6,7 +6,6 @@ margin-top:10px;
     height: 60px;
   }
 `
-
 export const HeaderContainer = styled.header`
   background: ${(props) => props.theme["gray-900"]};
   padding: 0.5rem 0 1.2rem;
@@ -21,8 +20,10 @@ export const HeaderContent = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+`;
 
-  nav {
+export const NavContainer = styled.div`
+   nav {
     display: flex;
     gap: 1rem;
   }
@@ -46,7 +47,7 @@ export const HeaderContent = styled.div`
       color: ${(props) => props.theme["indigo-700"]};
     }
   }
-`;
+`
 
 export const HeaderButton = styled.button`
   height: 50px;
