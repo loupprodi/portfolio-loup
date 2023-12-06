@@ -5,6 +5,7 @@ import {
   ListExperiences,
 } from "./styles";
 import { ExperienceJob } from "../../mocks/ExperienceJob";
+import { NavLink } from "react-router-dom";
 
 export const Experience = () => {
   return (
@@ -13,7 +14,9 @@ export const Experience = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
-      <h1>Experiências</h1>
+      <h1><NavLink to="/project" title="projects">
+            Projetos
+          </NavLink> & Experiências</h1>
       <ExperienceContent>
         <ListExperiences>
           {ExperienceJob.length > 0 ? (
