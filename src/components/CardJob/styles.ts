@@ -46,8 +46,8 @@ export const CardFooter = styled(motion.footer)<CardFooterMotionProps>`
 
 export const CardIcons = styled.div`
   display: flex;
-  gap: 10px;
-  color: ${(props)=> props.theme['red']};
+  justify-content: center;
+  gap: 5px;
   font-size: 1.5rem;
   `;
 
