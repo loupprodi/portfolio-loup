@@ -4,7 +4,7 @@ import { styled } from "styled-components";
 export const CardContainer = styled.section`
   width: 30rem;
   height: 25rem;
-  background-color: ${(props)=> props.theme['indigo-800']};
+  background-color: ${(props)=> props.theme['blue-950']};
   color: var(--gray);
   border-radius: 8px;
   box-shadow: 5px 5px 10px #22222270;

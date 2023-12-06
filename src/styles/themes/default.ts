@@ -6,6 +6,18 @@ export const defaultTheme = {
   terceary: '#533483',
   red: '#E94560',
 
+
+  "blue-100": "#dbeafe",
+  "blue-200": "#bfdbfe",
+  "blue-300": "#93c5fd",
+  "blue-400": "#60a5fa",
+  "blue-500": "#3b82f6",
+  "blue-600": "#4f46e5",
+  "blue-700": "#4338ca",
+  "blue-800": "#3730a3",
+  "blue-900": "#312e81",
+  "blue-950": "#172554",
+
   "indigo-100": "#ede9fe",
   "indigo-200": "#c7d2fe",
   "indigo-300": "#a5b4fc",

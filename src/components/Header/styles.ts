@@ -43,7 +43,7 @@ export const HeaderContent = styled.div`
     }
 
     &:active {
-      color: ${(props) => props.theme["green-500"]};
+      color: ${(props) => props.theme["indigo-700"]};
     }
   }
 `;

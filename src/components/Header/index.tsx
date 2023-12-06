@@ -20,9 +20,9 @@ export const Header = () => {
           <NavLink to="/project" title="project">
             Projetos
           </NavLink>
-          <NavLink to="/experience" title="experience">
+          {/* <NavLink to="/experience" title="experience">
             Xp
-          </NavLink>
+          </NavLink> */}
         </nav>
       </HeaderContent>
     </HeaderContainer>
