@@ -1,5 +1,5 @@
 import {CardContainer, CardFooter, CardIcons, CardUl} from './styles'
-// import { FaCss3Alt, FaHtml5, FaJs, FaReact} from 'react-icons/fa'
+
 
 interface CardJobProps {
     year: string,

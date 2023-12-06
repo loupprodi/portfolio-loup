@@ -41,7 +41,7 @@ export const Footer = () => {
             <span>
               <FaGoogle size={32} />
             </span>
-            <a href="mailto:luizprosdoskimi@gmail.com">loupprodi</a>
+            <a href="mailto:luizprosdoskimi@gmail.com">Luiz Prosdoskimi</a>
           </li>
         </SocialMediaList>
         <div>

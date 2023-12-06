@@ -12,8 +12,8 @@ export const AboutContainer = styled(motion.main)<AboutContainerMotionProps>`
   align-content: center;
   justify-content: space-evenly;
   align-items: center;
-
-  padding: 1rem 1.4rem;
+  gap:10px;
+  padding: 1.6rem 1.4rem;
 `;
 
 // export const AboutContent = styled.div`
