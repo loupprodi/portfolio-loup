@@ -20,7 +20,6 @@ export const Project = () => {
           <Card />
           <Card />
           <Card />
-          <Card />
         </ListProjects>
       </ProjectContent>
     </ProjectContainer>
