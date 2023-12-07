@@ -28,6 +28,14 @@ export const ExperienceContainer = styled(motion.main)<ExperienceContainerMotion
       border-bottom: 3px solid ${(props) => props.theme["green-500"]};
     }
 
+    &:hover::after {
+      content:" }"
+    }
+
+    &:hover::before {
+      content:"{ "
+    }
+
     &:active {
       color: ${(props) => props.theme["indigo-700"]};
     }

@@ -27,6 +27,13 @@ export const ProjectContainer = styled(motion.main)<ProjectContainerMotionProps>
     &:hover {
       border-bottom: 3px solid ${(props) => props.theme["green-500"]};
     }
+    &:hover::after {
+      content:" }"
+    }
+
+    &:hover::before {
+      content:"{ "
+    }
 
     &:active {
       color: ${(props) => props.theme["indigo-700"]};
