@@ -1,7 +1,6 @@
 import {
   GithubLogo,
   LinkedinLogo,
-  WhatsappLogo,
   TwitterLogo
 } from "@phosphor-icons/react";
 import { FooterContainer, FooterContent, SocialMediaList } from "./styles";
