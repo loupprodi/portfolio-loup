@@ -1,8 +1,8 @@
 import { styled } from "styled-components";
 
 export const CardContainer = styled.section`
-  width: 25rem;
-  height: 20rem;
+  width: 30vw;
+  height: 35vh;
   background-color: ${(props)=> props.theme['soft-white']};
   color: var(--gray);
   border-radius: 8px;
