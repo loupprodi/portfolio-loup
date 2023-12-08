@@ -1,6 +1,6 @@
 import {CardContainer, CardFooter, CardIcons, CardLink} from './styles'
 
-import { FaCss3Alt, FaHtml5, FaJs, FaReact} from 'react-icons/fa'
+// import { FaCss3Alt, FaHtml5, FaJs, FaReact} from 'react-icons/fa'
 import { BsArrowRight} from 'react-icons/bs'
 
 interface CardProps {
@@ -9,10 +9,10 @@ interface CardProps {
     link?:string
     portfolio?: string
     description?: string
-    // tech?: Array<string>
+    tech?: Array<string>
 }
 
-export const Card = ({name,portfolio,category, description,link}:CardProps) =>{
+export const Card = ({name,portfolio,category, description,link, tech}:CardProps) =>{
     return(
         <CardContainer>
         <h3>{name} | Categoria:{category}</h3>
@@ -22,10 +22,11 @@ export const Card = ({name,portfolio,category, description,link}:CardProps) =>{
         </iframe>
         <CardFooter>
             <CardIcons>
-               <FaHtml5 />
+               {/* <FaHtml5 />
                 <FaCss3Alt />
                 <FaJs />
-                <FaReact />
+                <FaReact /> */}
+                <p>{tech}</p>
             </CardIcons>
             <CardLink href={link}target='blank' rel="noopenner norefferer">
                 <BsArrowRight />
