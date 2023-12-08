@@ -9,10 +9,10 @@ interface CardProps {
     link?:string
     portfolio?: string
     description?: string
-    tech?: Array<string>
+    // tech?: Array<string>
 }
 
-export const Card = ({name,portfolio,category, description,link,tech}:CardProps) =>{
+export const Card = ({name,portfolio,category, description,link}:CardProps) =>{
     return(
         <CardContainer>
         <h3>{name} | Categoria:{category}</h3>
