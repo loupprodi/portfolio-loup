@@ -3,7 +3,7 @@ import { v4 as uuidv4 } from 'uuid';
 export const ProjectsProgram =[
     {
         id: uuidv4(),
-        img: 'work1',
+        portfolio: 'work1',
         name: "Project Ignite 4 Shop",
         category: "web",
         link: "https://github.com/loupprodi/project-ignite04-shop",
@@ -12,7 +12,7 @@ export const ProjectsProgram =[
       },
       {
         id: uuidv4(),
-        img: 'https://project-ignite03-dtmoney.vercel.app/',
+        portfolio: 'https://project-ignite03-dtmoney.vercel.app/',
         name: "Project Ignite 3 DtMoney",
         category: "web",
         link: "https://github.com/loupprodi/project-ignite03-dtmoney",
@@ -21,7 +21,7 @@ export const ProjectsProgram =[
       },
       {
         id: uuidv4(),
-        img: 'https://projeto-ignite02-timer.vercel.app/',
+        portfolio: 'https://projeto-ignite02-timer.vercel.app/',
         name: "Project Ignite 2 timer",
         category: "web",
         link: "https://github.com/loupprodi/projeto-ignite02-timer",
@@ -30,7 +30,7 @@ export const ProjectsProgram =[
       },
       {
         id: uuidv4(),
-        img: 'https://project-ignite01-ts.vercel.app/',
+        portfolio: 'https://project-ignite01-ts.vercel.app/',
         name: "Project Ignite 1",
         category: "web",
         link: "https://github.com/loupprodi/project-ignite01-ts",

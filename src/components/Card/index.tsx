@@ -7,15 +7,19 @@ interface CardProps {
     name?: string
     category?:string
     link?:string
+    portfolio?: string
     description?: string
     tech?: Array<string>
 }
 
-export const Card = ({name, category, description,link,tech}:CardProps) =>{
+export const Card = ({name,portfolio,category, description,link,tech}:CardProps) =>{
     return(
         <CardContainer>
-        <h3>{name}</h3>
+        <h3>{name} | Categoria:{category}</h3>
         <p>{description}</p>
+        <iframe src={portfolio} width='95%' height={250}>
+
+        </iframe>
         <CardFooter>
             <CardIcons>
                <FaHtml5 />
@@ -23,7 +27,7 @@ export const Card = ({name, category, description,link,tech}:CardProps) =>{
                 <FaJs />
                 <FaReact />
             </CardIcons>
-            <CardLink href='#'target='blank' rel="noopenner norefferer">
+            <CardLink href={link}target='blank' rel="noopenner norefferer">
                 <BsArrowRight />
             </CardLink>
         </CardFooter>
