@@ -3,12 +3,12 @@ import { v4 as uuidv4 } from 'uuid';
 export const ProjectsProgram =[
     {
         id: uuidv4(),
-        portfolio: 'work1',
-        name: "Project Ignite 4 Shop",
+        portfolio: 'https://jogo-da-forca-vue.vercel.app/',
+        name: "Project Forca Vue",
         category: "web",
-        link: "https://github.com/loupprodi/project-ignite04-shop",
+        link: "https://github.com/loupprodi/jogo-da-forca-vue",
         techs: ["Javascript", "Typescript", "React", "API Rest"],
-        description: "Este projeto foi desenvolvido com finalidade didaticas criando um pequeno shopping em NextJs consumindo a plataforma stripe de pagamentos, foi abordado a respeito da arquitetura cliente-side usando conceitos de ssg(Static Site Generation) e ssr(Server Side Rendering) dentro do framework"
+        description: "Este projeto foi desenvolvido com finalidade didaticas criando um jogo da forca feito em VueJs 2, migrado recentemente para o VueJs 3"
       },
       {
         id: uuidv4(),

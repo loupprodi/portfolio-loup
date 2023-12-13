@@ -26,7 +26,13 @@ export const Card = ({name,portfolio,category, description,link, tech}:CardProps
                 <FaCss3Alt />
                 <FaJs />
                 <FaReact /> */}
-                <p>{tech}</p>
+                <ul>
+                    {tech?.map((tech, index) =>{
+                        return(
+                            <li>{tech}</li>
+                        )
+                    }) }
+                </ul>
             </CardIcons>
             <CardLink href={link}target='blank' rel="noopenner norefferer">
                 <BsArrowRight />
