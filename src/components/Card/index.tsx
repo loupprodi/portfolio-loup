@@ -27,7 +27,7 @@ export const Card = ({name,portfolio,category, description,link, tech}:CardProps
                 <FaJs />
                 <FaReact /> */}
                 <ul>
-                    {tech?.map((tech, index) =>{
+                    {tech?.map((tech) =>{
                         return(
                             <li>{tech}</li>
                         )
