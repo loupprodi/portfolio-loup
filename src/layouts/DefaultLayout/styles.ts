@@ -8,7 +8,7 @@ export const LayoutContainer = styled.div`
 `;
 
 export const OutletContainer = styled.div`
-  height: 80vh;
+  height: 78.5vh;
   display: flex;
   flex-direction: column;
   align-items: center;
