@@ -1,8 +1,8 @@
 import { styled } from "styled-components";
 
 export const CardContainer = styled.section`
-  width: 30vw;
-  height: 35vh;
+  width: 30.875rem;
+  height: 34.875rem;
   background-color: ${(props)=> props.theme['soft-white']};
   color: var(--gray);
   border-radius: 8px;
@@ -34,6 +34,18 @@ export const CardIcons = styled.div`
   gap: 10px;
   color: ${(props)=> props.theme['red']};
   font-size: 1.5rem;
+
+  ul{
+    margin-left:10px;
+    display: flex;
+    gap:10px;
+    flex-wrap:wrap;
+    font-size:1rem;
+  }
+  li{
+    list-style:none;
+  }
+
 `;
 export const CardLink = styled.a`
   width: 40px;

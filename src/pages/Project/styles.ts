@@ -14,6 +14,7 @@ export const ProjectContainer = styled(motion.main)<ProjectContainerMotionProps>
   align-content: center;
   justify-content: space-evenly;
   align-items: center;
+  overflow: auto;
 
   padding: 0.2rem 1.2rem;
 
@@ -43,13 +44,16 @@ export const ProjectContainer = styled(motion.main)<ProjectContainerMotionProps>
 
 export const ProjectContent = styled.section`
   text-align:center;
-`
-export const ListProjects = styled.section`
- width: 100%;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 1.5rem;
-  margin-block: 1rem;
+  gap: 30px;
 `
+// export const ListProjects = styled.section`
+//  width: 100%;
+//   display: flex;
+//   flex-wrap: wrap;
+//   align-items: center;
+//   justify-content: center;
+//   gap: 1.5rem;
+//   margin-block: 1rem;
+// `
