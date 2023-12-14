@@ -6,6 +6,7 @@ export const defaultTheme = {
   terceary: '#533483',
   red: '#E94560',
 
+  purple: '#9933FF95',
 
   "blue-100": "#dbeafe",
   "blue-200": "#bfdbfe",

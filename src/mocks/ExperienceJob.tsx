@@ -12,7 +12,7 @@ export const ExperienceJob = [
     {
       id: uuidv4(),
       year:"2021-22",
-      position: "Estágiario",
+      position: "Estágiario Full Stack",
       company: "Starta ideia",
       description: "Executava tarefas como desenvolvedor estagiário fullstack na manutenção de código e bugs, e participação ativa na elaboração de projetos atuando na parte de front (React e React Native) e backend (Laravel, NodeJs)",
       tech: ["React", "React Native", "Javascript", "NodeJS", "MySQL", "API Rest", "Laravel"],
@@ -20,7 +20,7 @@ export const ExperienceJob = [
     {
       id: uuidv4(),
       year:"2020",
-      position: "Estágiario",
+      position: "Estágiario Suporte e manuntenção",
       company: "Alpina Textil LTDA",
       description: "Executava tarefas como revisão preventiva de hardware, manutenção e troca de peças em computadores, instalação e configuração, suporte à usuários, elaboração de documentos e planilhas utilizando o Pacote office, manutenção preventiva em impressoras, encaminhamento de equipamentos para consertos e follow-up com os fornecedores, e consultas em banco de dados Oracles usando o PL-SQL.",
       tech: ["Oracle", "PL-SQL"],

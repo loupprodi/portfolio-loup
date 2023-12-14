@@ -57,7 +57,7 @@ export const ListExperiences = styled.section`
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 1.5rem;
+  gap: 1.8rem;
   padding: 4rem;
   margin-block: 1rem;
 `
