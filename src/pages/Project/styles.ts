@@ -55,8 +55,7 @@ export const ListProjects = styled.section`
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 10px;
-  padding: 4rem;
   gap: 1.5rem;
+  padding: 4rem;
   margin-block: 1rem;
 `
