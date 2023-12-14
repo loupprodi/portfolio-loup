@@ -14,8 +14,13 @@ export const ExperienceContainer = styled(motion.main)<ExperienceContainerMotion
   align-content: center;
   justify-content: space-evenly;
   align-items: center;
-
+  overflow:auto;
   padding: 0.2rem 1.2rem;
+
+  h1{
+    margin-top:2rem;
+    margin-bottom:1.6rem;
+  }
 
   a{
     color: ${(props)=> props.theme['soft-white']};
@@ -44,15 +49,16 @@ export const ExperienceContainer = styled(motion.main)<ExperienceContainerMotion
 `;
 
 export const ExperienceContent = styled.section`
+  overflow:auto;
   text-align:center;
 `
 export const ListExperiences = styled.section`
- width: 100%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 1.5rem;
+  padding: 4rem;
   margin-block: 1rem;
 `
 export const CardSkills = styled.span`
