@@ -15,7 +15,7 @@ export const ProjectsProgram =[
         portfolio: 'https://project-webdev-site.vercel.app/',
         name: "Project Web Dev",
         category: "web",
-        link: "https://github.com/loupprodi/jogo-da-forca-vue",
+        link: "https://github.com/loupprodi/project-webdev-site",
         techs: ["Vue", "Javascript", "Html", "Css"],
         description: "Este projeto foi desenvolvido com finalidade didaticas criando um portal dev usando axios para consumo de dados e o VueJs 2, migrado recentemente para o VueJs 3"
       },
