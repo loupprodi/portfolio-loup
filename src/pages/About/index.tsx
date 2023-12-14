@@ -36,7 +36,7 @@ export const About = () => {
         <InfoContent>
           <h1>Sobre</h1>
           <p>
-            sou <span>Luiz Prosdoskimi</span>
+            Sou <span>Luiz Prosdoskimi</span>
             <br />
             <strong>dev full stack</strong>
           </p>
