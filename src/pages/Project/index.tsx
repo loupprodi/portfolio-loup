@@ -11,13 +11,13 @@ export const Project = () => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
-      <ProjectContent>
       <h1>
         Projetos &{" "}
         <NavLink to="/experience" title="experience">
           Experiências
         </NavLink>
       </h1>
+      <ProjectContent>
         <ListProjects>
           {ProjectsProgram.length > 0 ? (
             ProjectsProgram.map((project) => {

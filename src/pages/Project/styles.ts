@@ -14,7 +14,13 @@ export const ProjectContainer = styled(motion.main)<ProjectContainerMotionProps>
   align-content: center;
   justify-content: space-evenly;
   align-items: center;
+  overflow:auto;
   padding: 0.2rem 1.2rem;
+
+  h1{
+    margin-top:2rem;
+    margin-bottom:1.6rem;
+  }
 
   a{
     color: ${(props)=> props.theme['soft-white']};
@@ -41,18 +47,15 @@ export const ProjectContainer = styled(motion.main)<ProjectContainerMotionProps>
 `;
 
 export const ProjectContent = styled.section`
+  overflow:auto;
   text-align:center; 
-  h1{
-    margin-top:2rem;
-  }
 `
 export const ListProjects = styled.section`
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  overflow: auto;
-  gap: 30px;
+  gap: 10px;
   padding: 4rem;
   gap: 1.5rem;
   margin-block: 1rem;
