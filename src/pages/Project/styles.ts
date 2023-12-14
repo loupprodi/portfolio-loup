@@ -11,12 +11,10 @@ export const ProjectContainer = styled(motion.main)<ProjectContainerMotionProps>
   flex: 1;
   display: flex;
   flex-direction: column;
-  align-content: center;
-  justify-content: space-evenly;
   align-items: center;
-  overflow: auto;
-
+  justify-content: space-evenly;
   padding: 0.2rem 1.2rem;
+  overflow: auto;
 
   a{
     color: ${(props)=> props.theme['soft-white']};
@@ -43,17 +41,18 @@ export const ProjectContainer = styled(motion.main)<ProjectContainerMotionProps>
 `;
 
 export const ProjectContent = styled.section`
-  text-align:center;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
+  
+ 
 `
-// export const ListProjects = styled.section`
-//  width: 100%;
-//   display: flex;
-//   flex-wrap: wrap;
-//   align-items: center;
-//   justify-content: center;
-//   gap: 1.5rem;
-//   margin-block: 1rem;
-// `
+export const ListProjects = styled.section`
+  width: 100%;
+  display: flex;
+  /* flex-wrap: wrap; */
+  overflow: auto;
+  gap: 30px;
+  padding: 4rem;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-block: 1rem;
+`

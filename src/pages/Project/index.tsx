@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { Card } from "../../components/Card";
-import { ProjectContainer, ProjectContent } from "./styles";
+import { ListProjects, ProjectContainer, ProjectContent } from "./styles";
 import { ProjectsProgram } from "../../mocks/ProjectsProgram";
 
 
@@ -18,6 +18,7 @@ export const Project = () => {
         </NavLink>
       </h1>
       <ProjectContent>
+        <ListProjects>
           {ProjectsProgram.length > 0 ? (
             ProjectsProgram.map((project) => {
               return (
@@ -35,6 +36,7 @@ export const Project = () => {
           ) : (
             <h1>No content</h1>
           )} 
+        </ListProjects>
       </ProjectContent>
     </ProjectContainer>
   );
