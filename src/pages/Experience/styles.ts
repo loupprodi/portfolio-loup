@@ -25,7 +25,6 @@ export const ExperienceContainer = styled(motion.main)<ExperienceContainerMotion
   a{
     color: ${(props)=> props.theme['soft-white']};
     text-decoration: none;
-    color: ${(props) => props.theme["gray-100"]};
     border-top: 3px solid transparent;
     border-bottom: 3px solid transparent;
 
