@@ -55,7 +55,7 @@ export const About = () => {
             </p>
         </InfoContent>
       </AboutContainer>
-      <h2>Techs & Skills</h2>
+      <h2>Techs (Skills)</h2>
 
       <TechContent>
         <Slider settings={settings}>
